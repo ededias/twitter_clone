@@ -1,0 +1,25 @@
+{
+	"name": "miniframework/ewe",
+	"require": {
+		"php": ">= 7.0"
+	},
+	"authors": [
+		{
+			"name": "Edenilson Dias",
+			"email": "ededias4@gmail.com"
+		}
+	],
+	"description": "",
+	"autoload": {
+		"psr-4": {
+			"App\\": "App/",
+			"MF\\": "vendor/MF/"
+		}
+	},
+	"scripts": {
+		"serve": "php -S localhost:8080 -t public"
+	},
+	"config": {
+		"process-timeout": 0
+	}
+}
